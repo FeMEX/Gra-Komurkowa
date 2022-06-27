@@ -6,6 +6,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
+   
+
 
 public class Game : MonoBehaviour
 {
@@ -71,6 +73,7 @@ public class Game : MonoBehaviour
             throw new Exception("Unrecognized name");
         Group group = match.Groups[1];
         string number = group.Value;
+        
         return Convert.ToInt32(number);
     }
 }
