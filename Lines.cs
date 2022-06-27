@@ -117,6 +117,9 @@ public class Lines
     }
 
     private bool[,] mark;
+    
+    
+    
 
     public bool Cutlines()
     {
