@@ -102,6 +102,7 @@ public class Lines
             AddRandromBall();
     }
 
+    
     private void AddRandromBall()
     {
         int x, y;
